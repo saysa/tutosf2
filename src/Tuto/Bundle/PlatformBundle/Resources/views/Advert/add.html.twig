@@ -1,0 +1,19 @@
+{% extends "TutoCoreBundle::base.html.twig" %}
+
+{% block title %}
+    Ajouter une annonce - {{ parent() }}
+{% endblock %}
+
+{% block body %}
+
+    <h2>Ajouter une annonce</h2>
+
+    {{ include("TutoPlatformBundle:Advert:form.html.twig") }}
+
+    <p>
+        Vous ajoutez une annonce.
+    </p>
+
+
+
+{% endblock %}

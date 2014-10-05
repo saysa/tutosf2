@@ -1,0 +1,7 @@
+core:
+    resource: "@TutoCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+oc_platform:
+    resource: "@TutoPlatformBundle/Resources/config/routing.yml"
+    prefix:   /platform

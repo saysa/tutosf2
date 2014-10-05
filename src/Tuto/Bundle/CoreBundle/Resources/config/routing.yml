@@ -1,0 +1,7 @@
+core:
+    path:     /
+    defaults:  { _controller: TutoCoreBundle:Core:index }
+
+contact:
+    path:     /contact
+    defaults:  { _controller: TutoCoreBundle:Core:contact }
